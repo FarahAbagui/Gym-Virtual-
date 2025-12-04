@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tren Superior - Gym Virtual</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin:0;
+        font-family: 'Montserrat', sans-serif;
+        background:#c5bacd;
+        color:#000;
+        text-align:center;
+    }
+
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Tren_Superior.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .hero h1 { font-size:50px; font-weight:900; margin:0; }
+    .hero p { font-size:20px; margin-top:10px; }
+
+    .explanation {
+        max-width:800px;
+        margin:30px auto;
+        font-size:18px;
+        line-height:1.6;
+        color:#333;
+        padding:0 20px;
+        background:#fff;
+        border-radius:15px;
+        box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .container {
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:25px;
+        padding:40px 20px;
+    }
+
+    .exercise-btn {
+        display:block;
+        width:220px;
+        padding:20px;
+        font-size:20px;
+        font-weight:700;
+        color:#fff;
+        border-radius:15px;
+        background: linear-gradient(135deg, #6a0dad, #000);
+        text-decoration:none;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        transition:0.3s;
+    }
+
+    .exercise-btn:hover {
+        transform:translateY(-6px);
+        box-shadow:0 12px 25px rgba(0,0,0,0.4);
+        background: linear-gradient(135deg, #000, #6a0dad);
+    }
+
+</style>
+</head>
+<body>
+
+    <!-- BANNER HERO -->
+    <section class="hero">
+        <div>
+            <h1>Tren Superior</h1>
+            <p>Enforteix braços, espatlles i pit des de casa</p>
+        </div>
+    </section>
+
+    <!-- Explicación del Tren Superior -->
+    <div class="explanation">
+        <p>Aquí trobareu exercicis per enfortir tot el tren superior. Cada exercici té tres nivells: Principiant, Intermedi i Avançat, perquè progressis al teu ritme.</p>
+    </div>
+
+    <!-- Botones para los ejercicios -->
+    <div class="container">
+        <a class="exercise-btn" href="tren_superior1.html">BÍCEPS</a>
+        <a class="exercise-btn" href="tren_superior2.html">ESPATLLA</a>
+    </div>
+
+</body>
+</html>
+
+

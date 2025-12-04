@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Virtual</title>
+
+<!-- Tipografía elegante -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin:0;
+        font-family: 'Montserrat', sans-serif;
+        background: #e4e0e6;
+        color: #0000;
+        text-align: center;
+    }
+
+    /* ----- BANNER HERO ----- */
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("fitness.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .hero h1 {
+        font-size: 60px;
+        font-weight: 900;
+        margin:0;
+    }
+
+    .hero p {
+        font-size: 22px;
+        font-weight: 400;
+        margin-top:10px;
+    }
+
+    /* ----- PRESENTACIÓN ----- */
+    .presentation {
+        padding: 40px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .presentation h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #6d3398; /* morado */
+    }
+
+    .presentation p {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    /* ----- BOTONES PRINCIPALES ----- */
+    .container {
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:30px;
+        padding: 40px 20px;
+    }
+
+    .exercise-card {
+        position: relative;
+        width: 300px;
+        height: 180px;
+        border-radius: 20px;
+        overflow: hidden;
+        text-decoration: none;
+        color: white;
+        box-shadow: 0 12px 22px rgba(0,0,0,0.25);
+        transition: 0.3s;
+    }
+
+    .exercise-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+    }
+
+    .exercise-card span {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    }
+
+    .exercise-card:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 16px 30px rgba(0,0,0,0.35);
+    }
+
+</style>
+</head>
+
+<body>
+
+    <!-- BANNER HERO -->
+    <section class="hero">
+        <div>
+            <h1>GYM VIRTUAL</h1>
+            <p>Entrena desde casa y mejora cada parte de tu cuerpo</p>
+        </div>
+    </section>
+
+    <!-- PRESENTACIÓN -->
+    <section class="presentation">
+        <h2>El teu espai d'entrenament a casa</h2>
+        <p>Aquí trobaràs exercicis dissenyats per treballar cada part del teu cos des de casa. Seleccioneu Core, Tren Superior o Tren Inferior, i dins de cada categoria veureu nivells per millorar dia a dia.</p>
+    </section>
+
+    <!-- BOTONES DE ENTRENAMIENTO -->
+    <div class="container">
+        <a href="core.html" class="exercise-card">
+            <img src="core.jpg" alt="Core">
+            <span>🔥 CORE</span>
+        </a>
+
+        <a href="tren_superior.html" class="exercise-card">
+            <img src="tren_superior_index.jpg" alt="Tren Superior">
+            <span>💪 TREN SUPERIOR</span>
+        </a>
+
+        <a href="tren_inferior.html" class="exercise-card">
+            <img src="tren_inferior_index.jpeg" alt="Tren Inferior">
+            <span>🦵 TREN INFERIOR</span>
+        </a>
+    </div>
+
+</body>
+</html>
+

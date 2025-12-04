@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tren Superior Espatlla</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin:0;
+        font-family:'Montserrat',sans-serif;
+        background:#c5bacd;
+        color:#000;
+        text-align:center;
+    }
+
+    /* ----- BANNER HERO CON FOTO ----- */
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("tren_superior2.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .hero h1 { font-size:50px; font-weight:900; margin:0; }
+    .hero p { font-size:20px; margin-top:10px; }
+
+    /* ----- EXPLICACIÓN DEL EJERCICIO ----- */
+    .explanation {
+        max-width:800px;
+        margin:30px auto;
+        font-size:18px;
+        line-height:1.6;
+        color:#333;
+        padding:20px;
+        background:#fff;
+        border-radius:15px;
+        box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    /* ----- BOTONES DE NIVELES ----- */
+    .container {
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:25px;
+        padding:40px 20px;
+    }
+
+    .level-btn {
+        display:block;
+        width:220px;
+        padding:20px;
+        font-size:20px;
+        font-weight:700;
+        color:#fff;
+        border-radius:15px;
+        background: linear-gradient(135deg, #6a0dad, #000);
+        text-decoration:none;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        transition:0.3s;
+        text-align:center;
+    }
+
+    .level-btn:hover {
+        transform:translateY(-6px);
+        box-shadow:0 12px 25px rgba(0,0,0,0.4);
+        background: linear-gradient(135deg, #000, #6a0dad);
+    }
+</style>
+</head>
+<body>
+
+    <!-- BANNER HERO -->
+    <section class="hero">
+        <div>
+            <h1>ESPATLLA- Tren Superior</h1>
+            <p>Per enfortir braços, espatlles i pit amb aquest exercici</p>
+        </div>
+    </section>
+
+    <!-- EXPLICACIÓN DEL EJERCICIO -->
+    <div class="explanation">
+        <p> Aquest exercici treballa principalment les espatlles i els braços. Consisteix a agafar una corda amb les mans, pisar-la amb els peus i estirar-la cap amunt.
+
+        </p>
+    </div>
+
+    <!-- BOTONES DE NIVELES -->
+    <div class="container">
+        <a class="level-btn" href="tren_superior2_principiante.html">Principiant</a>
+        <a class="level-btn" href="tren_superior2_intermedio.html">Intermedi</a>
+        <a class="level-btn" href="tren_superior2_avanzado.html">Avançat</a>
+    </div>
+
+</body>
+</html>
+

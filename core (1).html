@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Core - Inicio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin:0;
+        font-family: 'Montserrat', sans-serif;
+        background:#c5bacd;
+        color:#000;
+        text-align:center;
+    }
+
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8fHww");
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .hero h1 { font-size:50px; font-weight:900; margin:0; }
+    .hero p { font-size:20px; margin-top:10px; }
+
+    .explanation {
+        max-width:800px;
+        margin:30px auto;
+        font-size:18px;
+        line-height:1.6;
+        color:#333;
+        padding:0 20px;
+        background:#fff;
+        border-radius:15px;
+        box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .container {
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:25px;
+        padding:40px 20px;
+    }
+
+    .exercise-btn {
+        display:block;
+        width:220px;
+        padding:20px;
+        font-size:20px;
+        font-weight:700;
+        color:#fff;
+        border-radius:15px;
+        background: linear-gradient(135deg, #6a0dad, #000);
+        text-decoration:none;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        transition:0.3s;
+    }
+
+    .exercise-btn:hover {
+        transform:translateY(-6px);
+        box-shadow:0 12px 25px rgba(0,0,0,0.4);
+        background: linear-gradient(135deg, #000, #6a0dad);
+    }
+
+</style>
+</head>
+<body>
+
+    <section class="hero">
+        <div>
+            <h1>Core - Inicio</h1>
+            <p>Selecciona el ejercicio que quieras realizar</p>
+        </div>
+    </section>
+
+    <!-- Explicación del Core -->
+    <div class="explanation">
+        <p>Benvingut al teu entrenament de Core. Aquí podreu enfortir l'abdomen, millorar la vostra postura i augmentar la vostra estabilitat. 
+Escull entre els exercicis disponibles i segueix els nivells suggerits per progressar de manera segura.</p>
+    </div>
+
+    <!-- Botones para los ejercicios -->
+    <div class="container">
+        <a class="exercise-btn" href="core1.html"> TWINS </a>
+        <a class="exercise-btn" href="core2.html"> puente de glúteos </a>
+    </div>
+
+</body>
+</html>
+
